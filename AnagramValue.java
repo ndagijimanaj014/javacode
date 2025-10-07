@@ -12,6 +12,7 @@ public class AnagramValue {
 		public static boolean isAnagram(String s,String t) {
 			if(s.length()!=t.length()) {
 				return false;
+				
 			}
 			int count[]= new int[26];
 			for(int i=0;i<s.length();i++) {
